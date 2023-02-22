@@ -1,0 +1,127 @@
+.top-post {
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 552px;
+    width: 1020px;
+
+    margin: 54px 0px 95px 0px;
+}
+
+.top-post img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction {
+    width: 409px;
+    height: 329px;
+
+    padding-top: 42px;
+
+    position: relative;
+    top: 223px;
+
+    background-color: #ffffff;
+}
+
+.introduction a {
+    text-decoration: none;
+}
+
+.introduction h1 {
+    margin-left: 27px;
+    margin-right: 28px;
+    margin-bottom: 54px;
+
+    width: 358;
+    height: 184px;
+
+    font-size: 42px;
+    line-height: 50px;
+
+    color: #33323D;
+    opacity: none;
+}
+
+.button-about {
+    display: flex;
+
+    height: 48px;
+    width: 200px;
+
+    border: 0;
+
+    background-color: #203A4C;
+
+    cursor: pointer;
+}
+
+.button-about img {
+    height: 48px;
+    width: 48px;
+
+    padding: 18px 16px;
+
+    background-color: rgba(32, 58, 76, 0.1);
+}
+
+.button-about p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin: auto;
+    margin-top: 17px;
+    height: 17px;
+
+    color: #FFFFFF;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+
+    height: 552px;
+    width: 1020px;
+
+    margin: 54px 0px 150px 0px;
+}
+
+.profile img {
+    height: 552px;
+    width: 497px;
+}
+
+.about {
+    height: 552px;
+    width: 430px;
+
+    padding-top: 30px;
+    padding-bottom: 46px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 24px;
+}
+
+.about button {
+    height: 48px;
+    width: 204px;
+
+    position: relative;
+    margin: 0 113px;
+}

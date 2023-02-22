@@ -1,0 +1,126 @@
+.introduction {
+    display: flex;
+
+    height: auto;
+
+    margin-top: 94px;
+    margin-bottom: -47px;
+    padding: 48px 0;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.introduction h2 {
+    width: 350px;
+}
+
+.text {
+    width: 635px;
+}
+
+.text p {
+    margin-bottom: 54px;
+}
+
+.form-area {
+    display: flex;
+    justify-content: space-between;
+
+    height: 426px;
+
+    margin-top: 94px;
+    margin-bottom: 104px;
+}
+
+input {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    width: 635px;
+    background-color: rgba(51, 50, 61, 0.1);
+
+    border: 0;
+
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.item {
+    margin-bottom: 24px;
+}
+
+.item h4 {
+    height: 30px;
+
+    margin-top: 3px;
+    margin-bottom: 5px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.name input {
+    height: 48px;
+}
+
+.email input {
+    height: 48px;
+}
+
+.msg textarea {
+    min-height: 96px;
+    resize: none;
+
+    padding: 10px 15px;
+
+    width: 100%;
+    background-color: rgba(51, 50, 61, 0.1);
+
+    border: 0;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.form-button {
+    height: 48px;
+    width: 200px;
+}

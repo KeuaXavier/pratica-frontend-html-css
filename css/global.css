@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* border: 1px solid red; */
+}
+
+main {
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+button {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.button-type-1 {
+    background-color: #203A4C;
+    color: #ffffff;
+    border: 0;
+}
+
+.button-type-1:hover {
+    background-color: #5FB4A2;
+}
+
+.button-type-2 {
+    border: 1px solid #33323D;
+    color: #33323D;
+}
+
+.button-type-2:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 32px;
+
+    margin: 0 165px;
+    margin-top: 64px;
+}
+
+.logo {
+    width: 60px;
+    height: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 42px;
+
+    list-style-type: none;
+}
+
+.menu a {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .menu li a {
+    color: #33323D;
+}
+
+.menu li a:hover {
+    color: #5FB4A2;
+}
+
+
+.convite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 140px;
+}
+
+.convite h1 {
+    width: 367px;
+}
+
+.convite button {
+    height: 48px;
+    width: 168px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    width: 100%;
+
+    padding-left: 193px;
+    padding-right: 165px;
+
+    background-color: #33323D;
+
+    position: static;
+    bottom: 0;
+}
+
+footer .item1 {
+    position: absolute;
+    left: 274px;
+}
+
+.icons-menu {
+    gap: 12px;
+}
+
+.icons-menu a:hover {
+    opacity: 0.2;
+}
+
+.icons-menu li a img {
+    height: 25px;
+    width: 25px;
+}
+
+footer .menu li a {
+    color: #ffffff
+}

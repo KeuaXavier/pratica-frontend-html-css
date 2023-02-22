@@ -1,0 +1,38 @@
+.project {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1020px;
+    height: auto;
+
+    margin-top: 94px;
+    margin-bottom: -14px;
+}
+
+.project img {
+    height: 500px;
+    width: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 350px;
+
+    padding-top: 103px;
+    padding-bottom: 103px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.text a button {
+    height: 48px;
+    width: 175px;
+}
+
+.convite {
+    margin-top: 150px;
+}
